@@ -1,56 +1,33 @@
-# ESTADÍSTICA INFERENCIAL
+# Pruebas estadísticas en R: X2, t y ANOVA
 
-¡Les damos la bienvenida! Este repostorio contiene los materiales (scripts 
-y diapositivas) para la clase Estadística descriptiva con R: Datos con 
-tablas, gráficas y medidas de resumen, programada para el Jueves 12 de 
-Mayo de 2022.
-
-## TÍTULO
-
-Estadística descriptiva con R: gráficas, tablas y medidas de resumen
-
-## SOBRE LA PONENTE
-
-Aurora es especialista en bioinformática. Fundó el servicio de consultoría 
-y análisis de datos OMICs Analysis, que apoya a científicos y empresas en 
-sus proyectos de transcriptómica y metagenómica. Le gusta la enseñanza, 
-por lo que frecuentemente imparte clases y seminarios en distintas sedes. 
-Además le interesan muchos temas de tecnología, como la programación de 
-sitios web y la impresión 3D. Adicionalmente, Aurora es co-organizadora 
-del capítulo RLadies Cuernavaca.
+En esta clase aprenderemos a realizar diferentes variantes de las pruebas estadísticas X2, t y ANOVA con el lenguaje de programación R. Abordaremos cómo elegir un test estadístico, la interpretación de los resultados de las pruebas X2, t y ANOVA, así como otras pruebas y correcciones que se emplean en escenarios particulares.
 
 ## TEMARIO
 
-- Elección de una prueba estadística
-- Supuestos y usos de la prueba X2
-- Supuestos y usos de las pruebas T de Student y ANOVA
+    Elección de una prueba estadística
+    Supuestos de la prueba X2
+    Diferentes escenarios del uso de X2
+    Supuestos de las pruebas T de Student y ANOVA
+    Diferentes escenarios del uso de T de Student
+    Diferentes escenarios del uso de ANOVA
+
+## SOBRE LA PONENTE
+
+Aurora es especialista en bioinformática. Fundó el servicio de consultoría y análisis de datos OMICs Analysis, que apoya a científicos y empresas que realizan grandes proyectos de transcriptómica y metagenómica. Le gusta la enseñanza, por lo que frecuentemente imparte clases y seminarios en distintas sedes. Además le interesan muchos temas de tecnología, como la programación de sitios web y la impresión 3D. Adicionalmente, Aurora es co-organizadora del capítulo RLadies Cuernavaca.
 
 ## CONOCIMIENTOS PREVIOS REQUERIDOS:
 
-Esta clase está dirigida a personas con conocimientos básicos de R y de 
-estadística descriptiva.
+Este meetup está dirigido a personas con conocimientos básicos de R y de estadística.
 
-## REQUERIMIENTOS DE SOFTWARE
 
-- R >=4.0 y RStudio en su versión más actual
+## REQUERIMIENTOS DE SOFTWARE
 
-- Paquetes de R: ggplot2, pastecs, summarytools, psych, tidyverse, 
-corrplot, Hmisc, correlation, dplyr
+R >=4.0 y RStudio
+
+Paquetes de R: ggplot2, ggpubr, corrplot, MASS, tidyverse
 
 Puedes usar la instrucción de instalación:
 
-install.packages(c("ggplot2", "pastecs", "psych", "tidyverse", "corrplot", 
-"correlation", "dplyr", "Hmisc","summarytools"), dependencies = TRUE)
+install.packages(c("ggplot2", "ggpubr", "corrplot", "MASS", "tidyverse"), dependencies = TRUE)
 
-Nota: En Mac OS el paquete summarytools requerirá a Xcode para poder 
-instalarse. Puedes descargar el instalador de Xcode en 
-https://www.xquartz.org/.
 
-## Licencias
-
-Los scripts de este repositorio pueden er utilizados y distribuídos de 
-forma libre bajo la licencia GPL3 (ver archivo GPL3_licence.md en este 
-mismo repositorio). El resto de los materiales de este repositorio pueden 
-ser utilizados de forma libre como material educativo bajo la licencia 
-Creative Commons 1.0 (ver archivo CC0_1.0_licence.md de este mismo 
-repositorio.
